@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+}
+.auto{
+    position: relative;
+    background-size: cover;
+    background-color: rgb(168, 43, 43);
+}
+.navbar{
+    display: flex;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+.navdiv{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 45px;
+    font-weight: 68%;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding-left: 8%;
+}
+li{
+    list-style: none ;
+    display: inline-block;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.icon{
+    height: 3%;
+    width: 3%;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.text{
+    margin-left: 8%;
+    margin-top: 10%;
+}
+
+.text h1{
+    font-size:50px;
+    color: rgb(241, 237, 237);
+    margin-bottom: 20px;
+}
+
+.text p{
+    color: rgb(240, 237, 237);
+    line-height: 22px;
+}
+
+.text a{
+    background: rgb(242, 63, 63);
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: none;
+    font-size: 80%;
+    color: rgb(242, 239, 239);
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 20px;
+    border-radius: rgb(242, 239, 239);;
+}
+
+.image{
+    width: 5%;
+    height: 20%;
+    left: 60%;
+    position: absolute;
+    bottom: 50%;
+    right: 70%;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background: rgb(242, 239, 239);
+}
+.menu h2{
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+}
+.menu h2:before,
+.menu h2:after{
+    content: " ";
+    flex: 1 ;
+    border-bottom: 2px solid;
+    margin: 0 10px;
+}
+.hr{
+    height:5px;
+}
+.menu img{
+    height: 70%;
+    width: 70%;
+}
+.figcaption{
+    display: flex;
+    align-content: center;
+}
+.flyer{
+    height: 40%;
+    display: flex;
+    align-items: center;
+    row-gap: 30px;
+    object-fit: cover;
+    background-color: #f1dfd3;
+    box-shadow: 1px 1px 20px #8c8b8b;
+}
+.fly{
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70%;
+    width: 30%;
+    border-radius: 10%;
+}
+.fly:hover{
+    color: #000;
+}
+.end{
+    width: 100%;
+    height: 50%;
+    background-color: rgba(253, 203, 41, 0.902);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col-2{
+    gap: 30%;
+    justify-content: center;
+    align-content: space-between;
+}
+.xyz{
+    width: 80%;
+    height: 85%;
+    position: relative;
+}
+.col-3{
+    display: flex;
+    justify-self: center;
+}
+h3{
+    display: flex;
+    font-size: 30px;
+    color: #FFF;
+}
+.eimg{
+    display: block;
+    width: 25px;
+    height: 10px;
+    padding-top: 0%;
+}
